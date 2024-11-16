@@ -13,6 +13,21 @@ namespace DSA
             Tree.TravesePreOrder(input);
             Tree.TravesePostOrder(input);
             Tree.TraveseInOrder(input);
+
+            var myLinkedList = new LinkedList();
+            myLinkedList.Add(1);
+            myLinkedList.Add(2);
+            myLinkedList.Add(3);
+            myLinkedList.Add(4);
+            myLinkedList.Display();
+            myLinkedList.Remove(1);
+            myLinkedList.Display();
+            myLinkedList.Remove(3);
+            myLinkedList.Display();
+            myLinkedList.Remove(4);
+            myLinkedList.Display();
+            myLinkedList.Remove(2);
+            myLinkedList.Display();
             Console.ReadLine();
         }
     }
